@@ -82,12 +82,3 @@ $video = get_post_meta ( get_the_ID (), '_produit_video_embed', true );
 	</div>
 </div>
 <?php get_footer();?>
-
-
-
-<style>
-#singleproduit iframe {
-	width: 100%;
-	height: 430px;
-}
-</style>
