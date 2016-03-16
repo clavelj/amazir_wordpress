@@ -6,32 +6,41 @@
 <?php get_header(); ?>
 <div class="row">
 	<div class="col-md-12">
+
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
 		<?php if ( have_posts() ) : ?>
 			<?php while (have_posts()) : the_post(); ?>
-			<div class="panel panel-default">
-			<div class="panel-heading">
+			
 						<?php the_title( "<h3 class='panel-title'>", "</h3>" );?> 
-			</div>
-			<div class="panel-body">
+			<div class="col-md-12">
 						<?php
 				
 				if (has_post_thumbnail ()) { // pour afficher image a la une
 					the_post_thumbnail ( 'thumbnail', array (
-							'class' => 'img-responsive' 
+							'class' => 'img-responsive col-md-3' 
 					) );
 				}
 				;
+				?>
+				<div class="col-md-9">
+					<div class="col-md-12"><?php
 				the_content ();
-				the_taxonomies ();
 				?>
 				</div>
-		</div>
-		<?php endwhile; ?>
+					<div class="col-md-6">
+				<?php the_taxonomies (); ?>
+				</div>
+				</div>
+			</div>
+				
+			<?php endwhile; ?>
 		<?php else : ?>
 			<?php
 			get_template_part ( 'template-parts/content', 'none' );
 			?>
-		<?php endif; ?>
+		<?php endif; ?></div>
+		<div class="col-md-2"></div>
 	</div>
 	<div class="col-md-3">
 		<?php get_sidebar();?>
