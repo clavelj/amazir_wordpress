@@ -1,0 +1,56 @@
+/*
+Theme Name: Produit Style
+Theme URI: 
+License: 
+License URI: 
+Description: Produit Style.
+Author: 
+Author URI: 
+Version: 1.0
+Tags: 
+Text Domain: produit
+*/
+
+
+#content-produit a {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	
+}
+
+#content-produit span {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none;
+}
+
+#content-produit a:hover span {
+	display: block;
+}
+#content-produit span.title {
+	color:white;
+	font-weight:bold;
+	font-size: 20px;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+#content-produit span.descr {
+	color: #BABABA;
+	top: 50px;
+	left: 20px;
+	right: 20px;
+	text-align:justify;
+	z-index: 2;
+}
+#content-produit span.bg {
+	top: 0;
+	left: 0;
+	height: 99%;
+	width: 100%;
+	background: #000;
+	z-index: 1;
+}
+

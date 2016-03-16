@@ -1,0 +1,97 @@
+/*
+Theme Name: Header Style
+Theme URI: 
+License: 
+License URI: 
+Description: Header Style.
+Author: 
+Author URI: 
+Version: 1.0
+Tags: 
+Text Domain: header
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+
+
+/* 
+*
+HEADER
+*
+*/
+
+
+header {
+	background-color: black;
+}
+
+header #logo img {
+	height: 70px;
+}
+
+/* Couleur menu du header */
+header ul>li>a {
+	color: white;
+}
+
+/* Couleur hamburger quand responsive */
+.icon-bar {
+	background-color: white;
+}
+
+header ul {
+	width: 100%;
+}
+
+header ul>li {
+	width: calc(100%/ 6);
+	text-align: center;
+}
+
+header .navbar {
+	margin-bottom: 0;
+}
+
+/* 
+*
+FOOTER
+*
+*/
+
+footer {
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Couleur menu du footer */
+footer ul>li>a {
+	color: white;
+}
+
+/* Couleur des 2 textes du footer */
+footer>.text-footer {
+	color: white
+}
+
+#footer-huileargan {
+	position: absolute;
+	bottom: 0;
+	background-color: black;
+}
+
+#footer-accueil {
+	padding-right: 0;
+}
