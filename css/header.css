@@ -34,7 +34,7 @@ HEADER
 
 
 header {
-	background-color: black;
+	background-color: #282828;
 }
 
 header #logo img {
@@ -71,7 +71,7 @@ FOOTER
 */
 
 footer {
-	background-color: black;
+	background-color: #282828;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -89,7 +89,7 @@ footer>.text-footer {
 #footer-huileargan {
 	position: absolute;
 	bottom: 0;
-	background-color: black;
+	background-color: #282828;
 }
 
 #footer-accueil {

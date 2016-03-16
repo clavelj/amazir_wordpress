@@ -3,8 +3,12 @@
  * Template pour un le contenu d'un produit
  */
 ?>
+
+<?php global $redux_starter;?>
+
+
 <?php get_header(); ?>
-<div class="row">
+<div class="row" id="singleproduit">
 	<div class="col-md-12">
 
 		<div class="col-md-2"></div>
@@ -28,13 +32,24 @@
 				the_content ();
 				?>
 				</div>
-					<div class="col-md-6">
-						<?php the_taxonomies (); // recuperer la contenance du produit
-						?>
+					<div class="col-md-8">
+						<?php
+				the_taxonomies (); // recuperer la contenance du produit
+				?>
 					</div>
-					<div class="col-md-6">
-					<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>
+
+					<div class="col-md-4">
+						<?php if ( get_post_meta( get_the_ID(), '_produit_video_url', true ) ) : ?>
+						
+						<a
+							href="<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>">
+						
+						<?php echo $redux_starter ['text-produit3'];?>
+						
+						</a>
+						<?php endif; ?>
 					</div>
+
 				</div>
 			</div>
 				
@@ -46,8 +61,33 @@
 		<?php endif; ?></div>
 		<div class="col-md-2"></div>
 	</div>
+
+	<div class="col-md-12">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 ">
+			<?php if ( get_post_meta( get_the_ID(), '_produit_video_embed', true ) ) : ?>
+				<?php
+				
+$video = get_post_meta ( get_the_ID (), '_produit_video_embed', true );
+				echo wp_oembed_get ( $video );
+				?>			
+			<?php endif; ?>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+
+
 	<div class="col-md-3">
 		<?php get_sidebar();?>
 	</div>
 </div>
 <?php get_footer();?>
+
+
+
+<style>
+#singleproduit iframe {
+	width: 100%;
+	height: 430px;
+}
+</style>
