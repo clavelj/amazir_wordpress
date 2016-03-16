@@ -32,9 +32,18 @@
 						<?php the_taxonomies (); // recuperer la contenance du produit
 						?>
 					</div>
+					
 					<div class="col-md-6">
-					<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>
+						<?php if ( get_post_meta( get_the_ID(), '_produit_video_url', true ) ) : ?>
+						
+						<a href ="<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>" >
+						
+						Notre boutique
+						
+						</a>
+						<?php endif; ?>
 					</div>
+					
 				</div>
 			</div>
 				
