@@ -39,20 +39,30 @@ Text Domain: produit
 	z-index: 2;
 }
 #content-produit span.descr {
+	
+	width:200px;
+	text-align:center;
+	margin-left:0 auto;
+	margin-right: 0 auto;
+	
 	color: #282828;
-	top: 50px;
-	left: 20px;
+	top: 10px;
+	left: 50px;
 	right: 20px;
+	margin-top:50%;
 	text-align:justify;
 	z-index: 2;
 }
 
 #content-produit span.more {
-	
+	width:100px;
 	color: #282828;
-	top: 80px;
+	font-weight:bold;
+	top: 10px;
 	left: 20px;
 	right: 20px;
+	margin-left: 33%;
+	margin-top:70%;
 	text-transform:uppercase;
 	text-align:justify;
 	z-index: 2;
