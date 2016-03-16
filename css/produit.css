@@ -30,9 +30,10 @@ Text Domain: produit
 	display: block;
 }
 #content-produit span.title {
-	color:white;
+	color: Black;
 	font-weight:bold;
 	font-size: 20px;
+	text-transform:uppercase;
 	top: 20px;
 	left: 20px;
 	z-index: 2;
@@ -47,10 +48,12 @@ Text Domain: produit
 }
 
 #content-produit span.more {
+	
 	color: #282828;
 	top: 80px;
 	left: 20px;
 	right: 20px;
+	text-transform:uppercase;
 	text-align:justify;
 	z-index: 2;
 }

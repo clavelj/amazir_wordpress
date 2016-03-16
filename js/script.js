@@ -13,6 +13,20 @@ jQuery(function($){
 		
 			$(this).find('span.title').css({
 				opacity: 0,
+				top:  t- 1	
+			}).animate({
+				opacity: 1,
+				top: t
+				}); 
+			$(this).find('span.descr').css({
+				opacity: 0,
+				top:  t- 10	
+			}).animate({
+				opacity: 1,
+				top: t
+				}); 
+			$(this).find('span.more').css({
+				opacity: 0,
 				top:  t- 20	
 			}).animate({
 				opacity: 1,
