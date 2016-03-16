@@ -9,6 +9,10 @@
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
 	
+	
+	
+	
+	
 <?php echo $redux_starter ['text-produit1'];?>
 <br>
 <?php echo $redux_starter ['text-produit2'];?>
