@@ -3,6 +3,10 @@
  * Template pour un le contenu d'un produit
  */
 ?>
+
+<?php global $redux_starter;?>
+
+
 <?php get_header(); ?>
 <div class="row">
 	<div class="col-md-12">
@@ -38,7 +42,7 @@
 						
 						<a href ="<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>" >
 						
-						Notre boutique
+						<?php echo $redux_starter ['text-produit3'];?>
 						
 						</a>
 						<?php endif; ?>

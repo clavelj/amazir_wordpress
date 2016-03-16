@@ -251,7 +251,15 @@ Redux::setSection ( $opt_name, array (
 						'subtitle' => __ ( 'Texte de la page produit', 'starter' ),
 						'desc' => __ ( 'Description de la page produit', 'starter' ),
 						'default' => 'Quare talis ed potius supplicio omni vindicanda est, ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit, haud scio an. Ae est, qualis res publica post mortem meam futura, quam qualis hodie sit.' 
-				) 
+				) ,
+				array (
+						'id' => 'text-produit3',
+						'type' => 'text',
+						'title' => __ ( 'Lien', 'starter' ),
+						'subtitle' => __ ( 'Lien vers la boutique', 'starter' ),
+						'desc' => __ ( 'Phrase du lien vers la boutique dans la page interne', 'starter' ),
+						'default' => 'Notre boutique'
+				),
 		) 
 ) );
 
