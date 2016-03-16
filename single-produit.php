@@ -29,8 +29,12 @@
 				?>
 				</div>
 					<div class="col-md-6">
-				<?php the_taxonomies (); ?>
-				</div>
+						<?php the_taxonomies (); // recuperer la contenance du produit
+						?>
+					</div>
+					<div class="col-md-6">
+					<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>
+					</div>
 				</div>
 			</div>
 				
