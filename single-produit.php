@@ -59,6 +59,21 @@
 		<?php endif; ?></div>
 		<div class="col-md-2"></div>
 	</div>
+	
+	<div class="col-md-12">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<?php if ( get_post_meta( get_the_ID(), '_produit_video_embed', true ) ) : ?>
+						
+					<iframe src ="<?php echo get_post_meta( get_the_ID(), '_produit_video_embed', true ) ?>">
+						</iframe>
+						
+						<?php endif; ?>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	
+	
 	<div class="col-md-3">
 		<?php get_sidebar();?>
 	</div>
