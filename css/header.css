@@ -10,10 +10,10 @@ Version: 1.0
 Tags: 
 Text Domain: header
 */
-
 * {
 	margin: 0;
 	padding: 0;
+	font-family: open sans;
 }
 
 .container {
@@ -24,15 +24,11 @@ Text Domain: header
 	padding-right: 15px;
 }
 
-
-
 /* 
 *
 HEADER
 *
 */
-
-
 header {
 	background-color: #282828;
 }
@@ -52,11 +48,14 @@ header ul>li>a {
 }
 
 header ul {
-	width: 100%;
+	width: auto;
+}
+
+#menu-menu-haut {
 }
 
 header ul>li {
-	width: calc(100%/ 6);
+	width: auto;
 	text-align: center;
 }
 
@@ -69,11 +68,11 @@ header .navbar {
 FOOTER
 *
 */
-
 footer {
 	background-color: #282828;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-size: 12px;
 }
 
 /* Couleur menu du footer */
@@ -81,8 +80,12 @@ footer ul>li>a {
 	color: white;
 }
 
+footer ul>li {
+	list-style-type: none;
+}
+
 /* Couleur des 2 textes du footer */
-footer>.text-footer {
+footer {
 	color: white
 }
 

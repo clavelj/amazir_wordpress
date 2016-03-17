@@ -2,6 +2,9 @@
 require_once locate_template ( '/lib/vendors/wp_bootstrap_navwalker.php' );
 ?>
 <div class="col-md-12">
+
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
 	<nav class="navbar" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -27,5 +30,7 @@ require_once locate_template ( '/lib/vendors/wp_bootstrap_navwalker.php' );
 							) );
 							?>
 						</div>
-	</nav>
+	</nav></div>
+	
+	<div class="col-md-2"></div>
 </div>
