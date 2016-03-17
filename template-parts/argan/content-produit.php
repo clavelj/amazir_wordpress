@@ -2,7 +2,7 @@
 
 	<a href="<?php the_permalink(); ?>"><span class="title"> <?php the_title( '<h3>', '</h3>' ); ?>
 	</span> <span class="descr"> <?php echo get_post_meta( get_the_ID(), '_produit_video_text', true ) ?></span>
-		<span class="more"> En Savoirs +</span><span class="bg"></span>
+		<span class="more"> En Savoir +</span><span class="bg"></span>
 			
 			<?php if(has_post_thumbnail($post->ID)) : ?>
 		<?php the_post_thumbnail('cover'); ?>

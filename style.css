@@ -13,3 +13,18 @@ Text Domain: starter
 
 
 
+
+.titre { 
+	margin-top:20px;
+	padding-bottom:10px;
+	font-weight: bold;
+	font-family: open sans;
+	font-size:20px;
+	text-transform: uppercase;
+	
+}
+
+
+.description-haut {
+	text-align:center;
+}
