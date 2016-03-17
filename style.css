@@ -10,23 +10,25 @@ Version: 1.0
 Tags: 
 Text Domain: starter
 */
-
-
-
-
-.titre { 
-	margin-top:23px;
-	padding-bottom:10px;
+.titre {
+	margin-top: 23px;
+	padding-bottom: 10px;
 	font-weight: bold;
 	font-family: open sans;
-	font-size:20px;
+	font-size: 20px;
 	text-transform: uppercase;
-	text-align:center;
-	color:#E5A265
-	
+	text-align: center;
+	color: #E5A265
 }
 
-
 .description-haut {
-	text-align:center;
+	text-align: center;
+}
+
+.unarticle {
+	margin-bottom: 40px;
+}
+
+.titrearticle {
+	margin-bottom: 12px;
 }

@@ -25,9 +25,9 @@ $recentPosts = new WP_Query ();
 $recentPosts->query ( 'showposts=2' );
 ?>
 <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-	<div class="col-md-12">
+	<div class="col-md-12 unarticle">
 
-		<div class="col-md-12">
+		<div class="col-md-12 titrearticle">
 			<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?></a>
 		</div>
 
