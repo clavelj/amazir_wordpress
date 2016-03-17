@@ -48,7 +48,17 @@ header ul>li>a {
 }
 
 header ul {
-	width: auto;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+ul #menu-menu-principal {
+	width: 800px;
+	margin-left: 200px;
+	margin-right: auto;
+		
 }
 
 #menu-menu-haut {
@@ -57,10 +67,19 @@ header ul {
 header ul>li {
 	width: auto;
 	text-align: center;
+
 }
 
 header .navbar {
 	margin-bottom: 0;
+}
+
+div #bs-example-navbar-collapse-1 {
+	margin-top: 2%;
+	margin-bottom: 2%; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
 }
 
 /* 
