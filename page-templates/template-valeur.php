@@ -8,9 +8,10 @@
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?> 
             <div class="post col-md-8">
-		<h1 class="post-title">
+		
+               <div class="titre">
                     <?php the_title(); ?>
-                </h1> 
+               </div> 
                 <?php the_content( ); ?>
     	   </div> 
         <?php endwhile; ?> 
