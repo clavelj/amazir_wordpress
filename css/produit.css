@@ -10,61 +10,58 @@ Version: 1.0
 Tags: 
 Text Domain: produit
 */
-
-
 #content-produit a {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	
 }
 
 #content-produit span {
 	position: absolute;
 	top: 25px;
-	left: 25px;
 	display: none;
 }
 
 #content-produit a:hover span {
 	display: block;
 }
+
 #content-produit span.title {
 	color: Black;
-	font-weight:bold;
+	font-weight: bold;
 	font-size: 20px;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	top: 10px;
-	left: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	z-index: 2;
+	width: 100%;
 }
+
 #content-produit span.descr {
-	
-	width:200px;
-	text-align:center;
-	margin-left:0 auto;
-	margin-right: 0 auto;
-	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	color: #282828;
 	top: 10px;
-	left: 50px;
-	right: 20px;
-	margin-top:50%;
-	text-align:justify;
+	margin-top: 50%;
+	width: 100%;
 	z-index: 2;
 }
 
 #content-produit span.more {
-	width:100px;
+	width: 100px;
 	color: #282828;
-	font-weight:bold;
+	font-weight: bold;
 	top: 10px;
 	left: 20px;
 	right: 20px;
-	margin-left: 33%;
-	margin-top:70%;
-	text-transform:uppercase;
-	text-align:justify;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70%;
+	text-transform: uppercase;
+	text-align: justify;
 	z-index: 2;
 }
 
@@ -76,8 +73,6 @@ Text Domain: produit
 	background: white;
 	z-index: 1;
 }
-
-
 
 #singleproduit iframe {
 	width: 100%;
