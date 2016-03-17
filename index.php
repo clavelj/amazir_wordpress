@@ -10,17 +10,19 @@
 	
 	
 	    
-    <?php if ( is_category ('bienetre')) { ?>
-    <div class="col-md-2"></div>
+<?php if ( is_category ('bienetre')) { ?>
+    <div class="col-md-2">
+    </div>
 		<div class="col-md-8">
-		<div class="titre">
-		<?php  echo $redux_starter ['text-bienetre1'];?>
+			<div class="titre">
+				<?php  echo $redux_starter ['text-bienetre1'];?>
+			</div>
+			<div class="description-haut">
+				<?php  echo $redux_starter ['text-bienetre2'];?>
+			</div>
 		</div>
-		<div class="description-haut">
-<?php  echo $redux_starter ['text-bienetre2'];?>
-</div>
-</div>
-		<div class="col-md-2"></div>
+		<div class="col-md-2">
+		</div>
 <?php } ?>
 
 
