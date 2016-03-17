@@ -15,12 +15,14 @@ Text Domain: starter
 
 
 .titre { 
-	margin-top:20px;
+	margin-top:23px;
 	padding-bottom:10px;
 	font-weight: bold;
 	font-family: open sans;
 	font-size:20px;
 	text-transform: uppercase;
+	text-align:center;
+	color:#E5A265
 	
 }
 
