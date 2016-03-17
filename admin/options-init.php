@@ -216,7 +216,15 @@ Redux::setSection ( $opt_name, array (
 		'subsection' => false,
 		'fields' => array (
 				array (
-						'id' => 'text-bienetre',
+						'id' => 'text-bienetre1',
+						'type' => 'text',
+						'title' => __ ( 'Titre', 'starter' ),
+						'subtitle' => __ ( 'Titre de la page bien etre', 'starter' ),
+						'desc' => __ ( 'Titre de la page bien etre', 'starter' ),
+						'default' => 'Bien-etre'
+				),
+				array (
+						'id' => 'text-bienetre2',
 						'type' => 'textarea',
 						'title' => __ ( 'Text Field', 'starter' ),
 						'subtitle' => __ ( 'Texte en haut du bien etre', 'starter' ),

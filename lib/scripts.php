@@ -11,7 +11,7 @@ if (! function_exists ( 'starter_scripts' )) :
 		wp_enqueue_style ( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' );
 		wp_enqueue_style ( 'starter-style', get_template_directory_uri () . '/css/header.css' );
 		wp_enqueue_style ( 'starter-style-produit', get_template_directory_uri () . '/css/produit.css' );
-		wp_enqueue_style ( 'starter-style', get_template_directory_uri () . '/style.css' );
+		wp_enqueue_style ( 'starter-style-contenu', get_template_directory_uri () . '/style.css' );
 		wp_enqueue_style ( 'options-style', get_template_directory_uri () . '/css/redux_starter.css' );
 	}
 
