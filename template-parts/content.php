@@ -1,6 +1,9 @@
 
 <hr>
 
+
+
+
 <?php
 if (has_post_thumbnail ()) { // pour afficher image a la une
 	?>
@@ -17,7 +20,7 @@ if (has_post_thumbnail ()) { // pour afficher image a la une
 
 
 <div class="col-md-9">
-	<br>
+
 	<div class="titrearticle">
 		<a href="<?php the_permalink() ?>" rel="bookmark">
 			<?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?>
@@ -28,6 +31,5 @@ if (has_post_thumbnail ()) { // pour afficher image a la une
     <div class="date">
     	Publié le <?php the_date(); ?>
     </div>
-
 </div>
 
