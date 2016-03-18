@@ -12,7 +12,7 @@
 	<div class="col-md-12">
 
 		<div class="col-md-2"></div>
-		<div class="col-md-8">
+		<div class="col-md-8 unproduit">
 		<?php if ( have_posts() ) : ?>
 			<?php while (have_posts()) : the_post(); ?>
 			
@@ -28,7 +28,8 @@
 				;
 				?>
 				<div class="col-md-9">
-					<div class="col-md-12"><?php
+					<div class="col-md-12">
+					<?php
 				the_content ();
 				?>
 				</div>
@@ -41,7 +42,7 @@
 					<div class="col-md-4">
 						<?php if ( get_post_meta( get_the_ID(), '_produit_video_url', true ) ) : ?>
 						
-						<a
+						<a class="boutonboutique"
 							href="<?php echo get_post_meta( get_the_ID(), '_produit_video_url', true ) ?>">
 						
 						<?php echo $redux_starter ['text-produit3'];?>
@@ -64,7 +65,7 @@
 
 	<div class="col-md-12">
 		<div class="col-md-2"></div>
-		<div class="col-md-8 ">
+		<div class="col-md-8 produitvideo ">
 			<?php if ( get_post_meta( get_the_ID(), '_produit_video_embed', true ) ) : ?>
 				<?php
 				
