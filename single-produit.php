@@ -15,8 +15,14 @@
 		<div class="col-md-8 unproduit">
 		<?php if ( have_posts() ) : ?>
 			<?php while (have_posts()) : the_post(); ?>
+			<div class="col-md-12">
+				<div class="col-md-3 titresingleproduit">
 			
-						<?php the_title( "<h3 class='panel-title'>", "</h3>" );?> 
+						<?php the_title( );?> 
+						</div>
+				<div class="col-md-9"></div>
+			</div>
+
 			<div class="col-md-12">
 						<?php
 				
@@ -33,7 +39,7 @@
 				the_content ();
 				?>
 				</div>
-					<div class="col-md-8">
+					<div class="col-md-8 produitcontenance">
 						<?php
 				the_taxonomies (); // recuperer la contenance du produit
 				?>
@@ -69,7 +75,7 @@
 			<?php if ( get_post_meta( get_the_ID(), '_produit_video_embed', true ) ) : ?>
 				<?php
 				
-$video = get_post_meta ( get_the_ID (), '_produit_video_embed', true );
+				$video = get_post_meta ( get_the_ID (), '_produit_video_embed', true );
 				echo wp_oembed_get ( $video );
 				?>			
 			<?php endif; ?>

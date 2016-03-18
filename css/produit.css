@@ -79,19 +79,38 @@ Text Domain: produit
 	height: 430px;
 }
 
-
 .unproduit {
-	margin-top:23px;
+	margin-top: 30px;
 }
-
 
 .produitvideo {
-	margin-top:20px;
+	margin-top: 20px;
 }
 
-
 .boutonboutique {
-color:black;
-border : black solid 1px;
-padding : 7px;	
+	color: black;
+	border: black solid 1px;
+	padding: 8px 25px;
+}
+
+.boutonboutique:hover, .boutonboutique:focus {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+
+.titresingleproduit {
+	font-size:16px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.produitcontenance a {
+	color: black;
+	font-weight: bold;
+}
+
+.produitcontenance a:hover, .produitcontenance a:focus {
+	text-decoration: none;
 }
