@@ -1,7 +1,5 @@
 
 <hr>
-<div class="col-md-12">
-		<?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?></div>
 
 <?php
 if (has_post_thumbnail ()) { // pour afficher image a la une
@@ -19,6 +17,17 @@ if (has_post_thumbnail ()) { // pour afficher image a la une
 
 
 <div class="col-md-9">
-<br>
-    	<?php the_content("Lire la suite" ); ?></div>
+	<br>
+	<div class="titrearticle">
+		<a href="<?php the_permalink() ?>" rel="bookmark">
+			<?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?>
+		</a>
+	</div>
+    
+    <?php the_content("<br><br><div class='readmore col-md-8'>Lire la suite</div>" ); ?>
+    <div class="date">
+    	Publié le <?php the_date(); ?>
+    </div>
+
+</div>
 
