@@ -2,7 +2,7 @@
 <footer id="footer" class="row">
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
-		<div class="col-md-3">
+		<div class="header-center col-md-3">
 					<?php
 					wp_nav_menu ( array (
 							'menu' => 'secondary_navigation',
