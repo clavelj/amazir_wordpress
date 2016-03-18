@@ -4,7 +4,7 @@ require_once locate_template ( '/lib/vendors/wp_bootstrap_navwalker.php' );
 <div class="col-md-12">
 
 	<div class="col-md-2"></div>
-	<div class="col-md-8">
+	<div class="margin-footer col-md-8">
 	<nav class="navbar" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -24,7 +24,7 @@ require_once locate_template ( '/lib/vendors/wp_bootstrap_navwalker.php' );
 									'container' => 'div',
 									'container_class' => 'collapse navbar-collapse',
 									'container_id' => 'bs-example-navbar-collapse-1',
-									'menu_class' => 'menu-header nav navbar-nav',
+									'menu_class' => 'menu-header  nav navbar-nav',
 									'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 									'walker' => new wp_bootstrap_navwalker () 
 							) );
