@@ -7,7 +7,8 @@
 					wp_nav_menu ( array (
 							'menu' => 'secondary_navigation',
 							'container' => 'div',
-							'container_class' => 'text-left' 
+							'container_class' => 'menu-header text-left' 
+							
 					) );
 					?>
 					</div>
