@@ -93,5 +93,12 @@ Text Domain: produit
 .boutonboutique {
 color:black;
 border : black solid 1px;
-padding : 7px;	
+padding : 8px 25px;	
+}
+
+
+.boutonboutique:hover, .boutonboutique:focus {
+color:white;
+text-decoration:none;
+background-color:black;
 }
