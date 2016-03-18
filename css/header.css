@@ -43,6 +43,7 @@ header #logo img {
 /* Couleur menu du header */
 header ul>li>a {
 	color: white;
+	
 }
 
 /* Couleur hamburger quand responsive */
@@ -113,8 +114,13 @@ footer {
 }
 
 /* Couleur menu du footer */
+
+
+
+
 footer ul>li>a {
 	color: white;
+	
 }
 
 footer ul>li {
