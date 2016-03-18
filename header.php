@@ -25,7 +25,7 @@ $layout = $redux_starter ["opt-layout"];
 					<img
 					src="
 					<?php echo $redux_starter ['opt-media']['url'];?>"
-					alt="Logo" class="img-responsive center-block" />
+					alt="Logo" class="logo img-responsive center-block" />
 				</a>
 			</div>			
 				<?php get_template_part('template-parts/menu'); ?>
