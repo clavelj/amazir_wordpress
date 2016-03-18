@@ -27,9 +27,7 @@ $recentPosts->query ( 'showposts=2' );
 <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
 	<div class="col-md-12 unarticle">
 
-		<div class="col-md-12 titrearticle">
-			<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?></a>
-		</div>
+		
 
 		<?php
 			if (has_post_thumbnail ()) { // pour afficher image a la une
@@ -46,6 +44,9 @@ $recentPosts->query ( 'showposts=2' );
 			}
 		?>
 		<div class="col-md-9">
+		<div class="titrearticle">
+			<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?></a>
+		</div>
 			<br>
     		<?php the_content("Lire la suite" ); ?>
     	</div>

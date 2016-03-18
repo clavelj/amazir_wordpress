@@ -30,5 +30,10 @@ Text Domain: starter
 }
 
 .titrearticle {
-	margin-bottom: 12px;
+	margin-bottom: 10px;
+}
+
+.titrearticle a, .titrearticle a:hover {
+color:black;
+text-decoration: none;
 }
