@@ -34,6 +34,20 @@ Text Domain: starter
 }
 
 .titrearticle a, .titrearticle a:hover {
-color:black;
-text-decoration: none;
+	color: black;
+	text-decoration: none;
+}
+
+.readmore {
+	padding-left: 0;
+	color: #E5A265;
+}
+
+.readmore:hover {
+	font-weight: bold;
+}
+
+.date {
+	font-style: italic;
+	font-size: 90%;
 }

@@ -48,7 +48,8 @@ $recentPosts->query ( 'showposts=2' );
 			<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title( "<h3 class='panel-title'>", "</h3>" ); ?></a>
 		</div>
 			<br>
-    		<?php the_content("Lire la suite" ); ?>
+    		<?php the_content("<br><br><div class='readmore col-md-8'>Lire la suite</div>" ); ?>
+    		<div class="date">Publié le <?php the_date(); ?></div>
     	</div>
 	</div>
 <?php endwhile; ?>
