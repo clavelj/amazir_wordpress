@@ -14,7 +14,7 @@
 				<div class="titre2">
          			<?php the_title(); ?>
      			</div>
-				<div class="description-haut">
+				<div class="description-haut2">
     				<?php the_content( ); ?>
     			</div>
 			</div>

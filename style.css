@@ -52,36 +52,34 @@ Text Domain: starter
 	font-size: 90%;
 }
 
-
-
-
-.sectionaccueil{
-	background-color:#EFEFEF;
-	margin-top:20px;
-	margin-bottom:25px;
+.sectionaccueil {
+	background-color: #EFEFEF;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .sectionaccueil img {
-	margin-top:10px;
+	margin-top: 10px;
 }
 
 .titre1 {
-
 	margin-top: 23px;
-	
-	font-size: 16px;
-	
-	text-align: center;
+	font-size: 21px;
 	text-transform: uppercase;
 	font-family: open sans light;
 }
 
 .titre2 {
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	font-weight: bold;
 	font-family: open sans;
-	font-size: 28px;
+	font-size: 33px;
 	text-transform: uppercase;
-	text-align: center;
 	color: #E5A265
+}
+
+
+
+.description-haut2 {
+	text-align: left;
 }
