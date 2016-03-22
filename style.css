@@ -51,3 +51,16 @@ Text Domain: starter
 	font-style: italic;
 	font-size: 90%;
 }
+
+
+
+
+.sectionaccueil{
+	background-color:#EFEFEF;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+
+.sectionaccueil img {
+	margin-top:10px;
+}

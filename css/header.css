@@ -129,7 +129,8 @@ footer ul>li {
 
 /* Couleur des 2 textes du footer */
 footer {
-	color: white
+	color: white;
+	margin-top : 8px;
 }
 
 #footer-huileargan {
