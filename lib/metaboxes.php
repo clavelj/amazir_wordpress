@@ -20,6 +20,32 @@ if (file_exists ( get_template_directory () . '/cmb2/init.php' )) {
 	require_once get_template_directory () . '/CMB2/init.php';
 }
 
+//
+//METABOXE DE LA PAGE ACCUEIL :
+//
+add_action( 'cmb2_admin_init', 'accueil_metabox' );
+function accueil_metabox() {
+
+	// Start with an underscore to hide fields from custom fields list
+	$prefix = '_accueil_titre_';
+
+	$cmb_accueil = new_cmb2_box( array(
+			'id'            => $prefix . 'metabox',
+			'title'         => __( 'TITRE', 'cmb2' ),
+			'object_types'  => array( 'page' )
+	) );
+
+
+
+$cmb_accueil ->add_field( array(
+	'name' => 'Sur-titre',
+    'desc' => 'Texte au dessus du titre de la page',
+    'type' => 'text_medium',
+	'id'   => $prefix . 'titre',
+	) );
+
+};
+
 
 
 //

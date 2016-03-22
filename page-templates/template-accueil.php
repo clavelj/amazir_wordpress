@@ -9,7 +9,9 @@
    <?php while (have_posts()) : the_post(); ?> 
    <div class="post col-md-12 sectionaccueil">
 			<div class="col-md-7">
-				<div class="titre">
+			<div class="titre1"><?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?></div>
+			
+				<div class="titre2">
          			<?php the_title(); ?>
      			</div>
 				<div class="description-haut">
