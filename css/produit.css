@@ -10,6 +10,12 @@ Version: 1.0
 Tags: 
 Text Domain: produit
 */
+#content-produit {
+	border: none;
+	border-radius : 0;
+	background-color:#efefef;
+}
+
 #content-produit a {
 	display: inline-block;
 	position: relative;

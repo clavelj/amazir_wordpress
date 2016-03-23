@@ -126,6 +126,8 @@ PAGE CONTACT
 	height: 50px;
 	padding-left: 15px;
 	width: 100%;
+	background-color:#EFEFEF;
+	color:#282828;
 }
 
 .textareacontact {
@@ -134,4 +136,7 @@ PAGE CONTACT
 	margin-bottom: 20px;
 	padding-left: 15px;
 	padding-top: 10px;
+	
+	background-color:#EFEFEF;
+	color:#282828;
 }
