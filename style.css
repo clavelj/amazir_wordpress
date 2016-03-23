@@ -10,6 +10,7 @@ Version: 1.0
 Tags: 
 Text Domain: starter
 */
+
 .titre {
 	margin-top: 23px;
 	padding-bottom: 10px;
@@ -66,7 +67,7 @@ Text Domain: starter
 	margin-top: 23px;
 	font-size: 21px;
 	text-transform: uppercase;
-	font-family: open sans light;
+	font-family: open sans light, open sans;
 }
 
 .titre2 {
@@ -100,8 +101,6 @@ Text Domain: starter
 PAGE CONTACT
 * -----------------------------------------------------------------------------------------------
 */
-
-
 .formulairecontact {
 	margin-top: 20px;
 }
@@ -119,15 +118,15 @@ PAGE CONTACT
 	color: white;
 	text-decoration: none;
 	background-color: black;
-	transition : all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .formcontact {
 	height: 50px;
 	padding-left: 15px;
 	width: 100%;
-	background-color:#EFEFEF;
-	color:#282828;
+	background-color: #EFEFEF;
+	color: #282828;
 }
 
 .textareacontact {
@@ -136,7 +135,6 @@ PAGE CONTACT
 	margin-bottom: 20px;
 	padding-left: 15px;
 	padding-top: 10px;
-	
-	background-color:#EFEFEF;
-	color:#282828;
+	background-color: #EFEFEF;
+	color: #282828;
 }

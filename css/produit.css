@@ -32,6 +32,13 @@ Text Domain: produit
 	display: block;
 }
 
+
+/*Pour compatibilité firefox : */
+#content-produit img {
+	width: 100%;
+}
+
+
 #content-produit span.title {
 	color: Black;
 	font-weight: bold;
