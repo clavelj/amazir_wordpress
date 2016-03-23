@@ -17,6 +17,7 @@
 			<div class="titre">
 				<?php  echo $redux_starter ['text-bienetre1'];?>
 			</div>
+			  <hr class="petitebordure">
 			<div class="description-haut">
 				<?php  echo $redux_starter ['text-bienetre2'];?>
 			</div>

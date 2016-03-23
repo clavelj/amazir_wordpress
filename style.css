@@ -16,7 +16,7 @@ Text Domain: starter
 	padding-bottom: 10px;
 	font-weight: bold;
 	font-family: open sans;
-	font-size: 20px;
+	font-size: 33px;
 	text-transform: uppercase;
 	text-align: center;
 	color: #E5A265
@@ -94,6 +94,11 @@ Text Domain: starter
 
 .contenuentreprise {
 	margin-bottom: 30px;
+}
+
+
+.imghuileargan {
+	margin-top:50px;
 }
 
 /* 

@@ -4,19 +4,30 @@
 ?> 
     <?php get_header(); ?>
 <div class="main page col-md-12"> 
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?> 
-            <div class="post col-md-7" style="margin-top: 20px;">
-		<h1 class="post-title">
+            <div class="post col-md-7" >
+		  <div class="titre">
                     <?php the_title(); ?>
-                </h1> 
+                </div> 
+                 <hr class="petitebordure">
                 <?php the_content( ); ?>
     	   </div> 
+    	   <div class="col-md-5" >
+    	   	<?php the_post_thumbnail ( 'full',array (
+					'class' => 'img-responsive imghuileargan' 
+				) );?>
+    	   </div>
         <?php endwhile; ?> 
-        <?php endif; ?> 
-    </div>
+        <?php endif; ?> </div>
+        
+        <div class="col-md-2"></div>
+</div>
+    
 <?php get_sidebar(); ?>
-<div id="footer-huileargan" class="col-md-12">
+<div id="" class="col-md-12">
             <?php get_footer(); ?>
         </div>
 
