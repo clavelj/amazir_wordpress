@@ -44,6 +44,15 @@ $cmb_accueil ->add_field( array(
 	'id'   => $prefix . 'titre',
 	) );
 
+
+$cmb_accueil ->add_field( array(
+		'name'    => 'Description',
+		'desc'    => 'Description',
+		'default' => 'Nihil morati post haec militares avidi saepe turbarum adorti sunt Montium primum, qui divertebat in proximo, levi corpore senem atque morbosum, et hirsutis resticulis cruribus eius innexis divaricaturn sine spiramento ullo ad usque praetorium traxere praefecti.',
+		'id'      => $prefix . 'text',
+		'type'    => 'textarea'
+) );
+
 };
 
 

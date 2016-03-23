@@ -75,10 +75,18 @@ Text Domain: starter
 	font-family: open sans;
 	font-size: 33px;
 	text-transform: uppercase;
-	color: #E5A265
+	color: #E5A265;
 }
 
 
+.petitebordure {
+margin-right:auto;
+margin-left:auto;
+margin-top:3px;
+height:7px;
+    background:#E5A265;
+    width:60px;
+}
 
 .description-haut2 {
 	text-align: left;
