@@ -78,31 +78,51 @@ Text Domain: starter
 	color: #E5A265;
 }
 
-
 .petitebordure {
-margin-right:auto;
-margin-left:auto;
-margin-top:3px;
-height:7px;
-    background:#E5A265;
-    width:60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	height: 7px;
+	background: #E5A265;
+	width: 60px;
 }
 
 .description-haut2 {
 	text-align: left;
 }
 
-
 .contenuentreprise {
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
 
+/* 
+* -----------------------------------------------------------------------------------------------
+PAGE CONTACT
+* -----------------------------------------------------------------------------------------------
+*/
+.formulairecontact {
+	margin-top: 20px;
+}
 
 .boutonform {
-color: black;
+	color: black;
 	border: black solid 1px;
 	padding: 8px 25px;
-	background-color:white;
-	margin-left:auto;
-	margin-right:auto;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formcontact {
+	height: 50px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+.textareacontact {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
 }

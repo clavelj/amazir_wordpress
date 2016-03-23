@@ -21,13 +21,13 @@
                 	'style'=>'width:100%'
 				) );?>
                 
-                
+                <?php if (get_post_meta( get_the_ID(), '_accueil_titre_titre', true )) :?>
 				<div class="titre"> 
 					<?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?>
                 </div>
                 <hr class="petitebordure">
                 <?php echo wpautop( get_post_meta( get_the_ID(), '_accueil_titre_text', true )) ?>
-                
+                <?php endif;?>
     	   </div> 
         <?php endwhile; ?> 
         <?php endif; ?> 
