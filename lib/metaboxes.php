@@ -44,6 +44,9 @@ $cmb_accueil ->add_field( array(
 	'id'   => $prefix . 'titre',
 	) );
 
+
+
+
 };
 
 

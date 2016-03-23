@@ -24,7 +24,7 @@ require_once locate_template ( '/lib/vendors/wp_bootstrap_navwalker.php' );
 									'container' => 'div',
 									'container_class' => 'collapse navbar-collapse',
 									'container_id' => 'bs-example-navbar-collapse-1',
-									'menu_class' => 'menu-header  nav navbar-nav',
+									'menu_class' => 'menu-header  nav ',
 									'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 									'walker' => new wp_bootstrap_navwalker () 
 							) );

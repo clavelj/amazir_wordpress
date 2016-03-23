@@ -52,11 +52,12 @@ header ul>li>a {
 }
 
 header ul {
-	display:inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
+	display:flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: auto;
+	
+	}
 
 ul #menu-menu-principal {
 	width: 800px;
