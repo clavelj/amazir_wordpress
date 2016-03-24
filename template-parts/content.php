@@ -7,7 +7,7 @@
 <?php
 if (has_post_thumbnail ()) { // pour afficher image a la une
 	?>
-<div class="col-md-3">
+<div class="col-md-3 col-sm-3">
 	<?php
 	
 	the_post_thumbnail ( 'thumbnail', array (

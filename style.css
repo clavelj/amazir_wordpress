@@ -15,7 +15,10 @@ Text Domain: starter
 	margin:0;
 	padding:0;
 }
-
+body {
+	font-family: open sans;
+	font-size: 14px;
+}
 .titre {
 	margin-top: 23px;
 	padding-bottom: 10px;
