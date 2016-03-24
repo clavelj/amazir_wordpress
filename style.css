@@ -16,7 +16,7 @@ Text Domain: starter
 	padding-bottom: 10px;
 	font-weight: bold;
 	font-family: open sans;
-	font-size: 20px;
+	font-size: 33px;
 	text-transform: uppercase;
 	text-align: center;
 	color: #E5A265
@@ -67,7 +67,7 @@ Text Domain: starter
 	margin-top: 23px;
 	font-size: 21px;
 	text-transform: uppercase;
-	font-family: open sans light;
+	font-family: open sans light, open sans;
 }
 
 .titre2 {
@@ -90,10 +90,15 @@ Text Domain: starter
 
 .description-haut2 {
 	text-align: left;
+	margin-bottom: 60px;
 }
 
 .contenuentreprise {
 	margin-bottom: 30px;
+}
+
+.imghuileargan {
+	margin-top: 50px;
 }
 
 /* 
@@ -114,10 +119,19 @@ PAGE CONTACT
 	margin-right: auto;
 }
 
+.boutonform:hover, .boutonform:focus {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	transition: all 0.3s ease-in-out 0s;
+}
+
 .formcontact {
 	height: 50px;
 	padding-left: 15px;
 	width: 100%;
+	background-color: #EFEFEF;
+	color: #282828;
 }
 
 .textareacontact {
@@ -126,4 +140,23 @@ PAGE CONTACT
 	margin-bottom: 20px;
 	padding-left: 15px;
 	padding-top: 10px;
+	background-color: #EFEFEF;
+	color: #282828;
+}
+
+/* Small devices (tablets, 768px and up) 
+Responsive pour les mobiles : */
+
+@media ( max-width :768px) {
+	.unarticle {
+		text-align: center;
+	}
+	.imagearticle {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+	.titrearticle {
+		margin-bottom: 0px;
+	}
 }

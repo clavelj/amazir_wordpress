@@ -34,7 +34,7 @@
 				;
 				?>
 				<div class="col-md-9">
-					<div class="col-md-12">
+					<div class="col-md-12 contenusingleproduit">
 					<?php
 				the_content ();
 				?>

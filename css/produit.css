@@ -10,6 +10,12 @@ Version: 1.0
 Tags: 
 Text Domain: produit
 */
+#content-produit {
+	border: none;
+	border-radius : 0;
+	background-color:#efefef;
+}
+
 #content-produit a {
 	display: inline-block;
 	position: relative;
@@ -25,6 +31,13 @@ Text Domain: produit
 #content-produit a:hover span {
 	display: block;
 }
+
+
+/*Pour compatibilité firefox : */
+#content-produit img {
+	width: 100%;
+}
+
 
 #content-produit span.title {
 	color: Black;
@@ -84,7 +97,7 @@ Text Domain: produit
 }
 
 .produitvideo {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .boutonboutique {
@@ -100,11 +113,14 @@ Text Domain: produit
 	transition : all 0.3s ease-in-out 0s;
 }
 
-.titresingleproduit {
-	font-size:16px;
-	text-align: center;
-	text-transform: uppercase;
+.titresingleproduit {	
 	margin-bottom: 15px;
+	font-weight: bold;
+	font-family: open sans;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #E5A265
 }
 
 .produitcontenance a {
@@ -114,4 +130,8 @@ Text Domain: produit
 
 .produitcontenance a:hover, .produitcontenance a:focus {
 	text-decoration: none;
+}
+
+.contenusingleproduit {
+	margin-bottom:20px;
 }

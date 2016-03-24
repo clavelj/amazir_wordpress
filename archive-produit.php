@@ -14,6 +14,7 @@
 		<div class="titre">
 		<?php echo $redux_starter ['text-produit1'];?>
 	</div>
+	  <hr class="petitebordure">
 		<div class="description-haut">
 <?php echo $redux_starter ['text-produit2'];?>
 </div>

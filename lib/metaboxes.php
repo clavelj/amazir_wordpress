@@ -47,7 +47,7 @@ function accueil_metabox() {
 	$cmb_accueil->add_field ( array (
 			'name' => 'Description',
 			'desc' => 'Description',
-			'default' => 'Nihil morati post haec militares avidi saepe turbarum adorti sunt Montium primum, qui divertebat in proximo, levi corpore senem atque morbosum, et hirsutis resticulis cruribus eius innexis divaricaturn sine spiramento ullo ad usque praetorium traxere praefecti.',
+			'default' => '',
 			'id' => $prefix . 'text',
 			'type' => 'wysiwyg',
 			'options' => array () 
