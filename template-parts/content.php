@@ -11,7 +11,7 @@ if (has_post_thumbnail ()) { // pour afficher image a la une
 	<?php
 	
 	the_post_thumbnail ( 'thumbnail', array (
-			'class' => 'img-responsive' 
+			'class' => 'img-responsive imagearticle' 
 	) );
 	?></div>
 <?php

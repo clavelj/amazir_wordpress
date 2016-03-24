@@ -32,7 +32,7 @@
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="col-md-12">
 			<div class="col-md-2"></div>
-			<div class="col-md-8">
+			<div class="col-md-8 unarticle">
 					<?php
 				get_template_part ( 'template-parts/content', get_post_format () );
 				?>
