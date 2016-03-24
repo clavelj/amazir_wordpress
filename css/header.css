@@ -112,6 +112,8 @@ footer {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-size: 12px;
+	width: 100%;
+	bottom: 0;
 }
 
 /* Couleur menu du footer */
