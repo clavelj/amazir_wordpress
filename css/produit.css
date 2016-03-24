@@ -97,7 +97,7 @@ Text Domain: produit
 }
 
 .produitvideo {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .boutonboutique {
@@ -130,4 +130,8 @@ Text Domain: produit
 
 .produitcontenance a:hover, .produitcontenance a:focus {
 	text-decoration: none;
+}
+
+.contenusingleproduit {
+	margin-bottom:20px;
 }

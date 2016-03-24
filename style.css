@@ -10,7 +10,6 @@ Version: 1.0
 Tags: 
 Text Domain: starter
 */
-
 .titre {
 	margin-top: 23px;
 	padding-bottom: 10px;
@@ -90,15 +89,15 @@ Text Domain: starter
 
 .description-haut2 {
 	text-align: left;
+	margin-bottom: 60px;
 }
 
 .contenuentreprise {
 	margin-bottom: 30px;
 }
 
-
 .imghuileargan {
-	margin-top:50px;
+	margin-top: 50px;
 }
 
 /* 
@@ -142,4 +141,21 @@ PAGE CONTACT
 	padding-top: 10px;
 	background-color: #EFEFEF;
 	color: #282828;
+}
+
+/* Small devices (tablets, 768px and up) 
+Responsive pour les mobiles : */
+
+@media ( max-width :768px) {
+	.unarticle {
+		text-align: center;
+	}
+	.imagearticle {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+	.titrearticle {
+		margin-bottom: 0px;
+	}
 }
