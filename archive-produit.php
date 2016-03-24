@@ -22,7 +22,7 @@
 	<?php if ( have_posts() ) : ?>
 		<div class="row">
 		<?php while (have_posts()) : the_post(); ?>
-			<div class="col-xs-6 col-md-4">
+			<div class="col-md-4 col-sm-6 unproduitarchive">
 			<?php
 			get_template_part ( 'template-parts/argan/content', 'produit' );
 			?>
