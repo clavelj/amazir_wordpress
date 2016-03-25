@@ -2,8 +2,6 @@
 <hr>
 
 
-
-
 <?php
 if (has_post_thumbnail ()) { // pour afficher image a la une
 	?>

@@ -13,7 +13,7 @@
 		<div class="col-md-8">
 			<div class="col-md-12">
 				<?php
-				get_template_part ( 'template-parts/content', get_post_format () );
+				get_template_part ( 'template-parts/argan/content', 'article' );
 				?></div>
 		</div>
 		<div class="col-md-2"></div>
