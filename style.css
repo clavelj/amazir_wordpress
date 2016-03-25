@@ -115,7 +115,7 @@ body {
 SIDEBAR
 * -----------------------------------------------------------------------------------------------
 */
-.titresidebar {
+.titresidebar, .sidebarcomplet label {
 	font-family: open sans;
 	font-size: 23px;
 	font-weight: bold;
