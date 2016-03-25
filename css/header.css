@@ -44,6 +44,23 @@ header #logo img {
 header ul>li>a {
 	color: white;
 	
+	
+}
+
+header ul>li>a  .active{
+	color: white;
+	font-weight: bold;	
+	
+}
+
+/*Cour menu activv */
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #E9C254;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: #282828;
+    outline: 0;
 }
 
 /* Couleur hamburger quand responsive */
@@ -55,8 +72,7 @@ header ul {
 	display:flex;
 	justify-content: center;
 	margin: 0 auto;
-	width: auto;
-	
+	width: auto;	
 	}
 
 ul #menu-menu-principal {
