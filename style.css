@@ -110,6 +110,22 @@ body {
 	margin-top: 50px;
 }
 
+
+.imagesinglearticle {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.titre4 {
+	margin-bottom: 30px;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-family: open sans ;
+	font-weight:bold;
+	color:#E5A265;
+	text-align:center;
+}
+
 /* 
 * -----------------------------------------------------------------------------------------------
 SIDEBAR

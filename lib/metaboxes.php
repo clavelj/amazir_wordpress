@@ -110,6 +110,34 @@ function produit_register_video_metabox() {
 			'id' => $prefix . 'embed',
 			'type' => 'oembed' 
 	) );
-}
+};
 
 
+
+
+
+
+add_action ( 'cmb2_admin_init', 'article_metabox' );
+function article_metabox() {
+
+	// Start with an underscore to hide fields from custom fields list
+	$prefix = '_article_image_';
+
+	$cmb_produit = new_cmb2_box ( array (
+			'id' => $prefix . 'metabox',
+			'title' => __ ( 'Article Informations', 'cmb2' ),
+			'object_types' => array (
+					'post'
+			)
+	) );
+
+	
+	$cmb_produit->add_field ( array (
+			'name' => __ ( 'Image', 'cmb2' ),
+			'desc' => __ ( 'Ajouter une image a afficher dans larticle', 'cmb2' ),
+			'id' => $prefix . 'image',
+			'type' => 'file'
+	) );
+
+	};
+	
