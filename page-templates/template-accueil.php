@@ -46,7 +46,7 @@ $recentPosts->query ( 'showposts=2' );
 			<div class="col-md-3 col-sm-3 col-xs-12">
 				<?php
 		
-		the_post_thumbnail ( 'thumbnail', array (
+		the_post_thumbnail ( 'full', array (
 				'class' => 'img-responsive imagearticle' 
 		) );
 		?>
@@ -66,6 +66,12 @@ $recentPosts->query ( 'showposts=2' );
 <?php endwhile; ?>
 </div>
 
-<div class="col-md-2"></div>
-<?php get_sidebar(); ?>
+<div class="col-md-2">
+	<?php if ( is_dynamic_sidebar() ) { ?>
+		<div class="visible-md visible-lg">
+			<?php get_sidebar(); ?>
+		</div>
+	<?php } ?>
+</div>
+
 <div class="post col-md-12" id="footer-accueil" style=""><?php get_footer(); ?></div>

@@ -36,7 +36,7 @@ body {
 }
 
 .unarticle {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .titrearticle {
@@ -109,6 +109,55 @@ body {
 .imghuileargan {
 	margin-top: 50px;
 }
+
+
+.imagesinglearticle {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.titre4 {
+	margin-bottom: 30px;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-family: open sans ;
+	font-weight:bold;
+	color:#E5A265;
+	text-align:center;
+}
+
+/* 
+* -----------------------------------------------------------------------------------------------
+SIDEBAR
+* -----------------------------------------------------------------------------------------------
+*/
+
+.titresidebar, .sidebarcomplet label {
+	font-family: open sans;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #E5A265;
+	margin-bottom: 10px;
+}
+
+.sidebarcomplet a, .sidebarcomplet a:hover, .sidebarcomplet a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.sidebarcomplet {
+	margin-top: 30px;
+}
+
+.sidebarcomplet a:hover {
+	font-weight: bold;
+}
+
+.sidebarcomplet li {
+	list-style-type: none;
+}
+
 
 /* 
 * -----------------------------------------------------------------------------------------------

@@ -23,10 +23,17 @@
         <?php endwhile; ?> 
         <?php endif; ?> </div>
         
-        <div class="col-md-2"></div>
+        <div class="col-md-2">
+	<?php if ( is_dynamic_sidebar() ) { ?>
+		<div class="visible-md visible-lg">
+			<?php get_sidebar(); ?>
+		</div>
+	<?php } ?>
+	
+</div>
+
 </div>
     
-<?php get_sidebar(); ?>
 <div id="" class="col-md-12">
             <?php get_footer(); ?>
         </div>

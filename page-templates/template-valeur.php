@@ -31,7 +31,19 @@
     	   </div> 
         <?php endwhile; ?> 
         <?php endif; ?> 
-         <div class="post col-md-2"></div>
+        
+        
+<div class="col-md-2">
+	<?php if ( is_dynamic_sidebar() ) { ?>
+		<div class="visible-md visible-lg">
+			<?php get_sidebar(); ?>
+		</div>
+	<?php } ?>
+</div>         
+
+
+
+
     </div>
     
     
