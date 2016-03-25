@@ -14,12 +14,15 @@ Text Domain: produit
 	border: none;
 	border-radius : 0;
 	background-color:#efefef;
+	padding:0;
 }
 
 #content-produit a {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
+	
+	width:100%
 }
 
 #content-produit span {
@@ -36,6 +39,12 @@ Text Domain: produit
 /*Pour compatibilité firefox : */
 #content-produit img {
 	width: 100%;
+	
+	
+	
+    max-height: 220px;
+    width: auto;
+
 }
 
 

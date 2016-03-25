@@ -46,7 +46,7 @@ $recentPosts->query ( 'showposts=2' );
 			<div class="col-md-3 col-sm-3 col-xs-12">
 				<?php
 		
-		the_post_thumbnail ( 'thumbnail', array (
+		the_post_thumbnail ( 'full', array (
 				'class' => 'img-responsive imagearticle' 
 		) );
 		?>
