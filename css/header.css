@@ -38,29 +38,24 @@ header #logo img {
 	margin-top: 2%;
 }
 
-
-
 /* Couleur menu du header */
 header ul>li>a {
 	color: white;
-	
-	
 }
 
-header ul>li>a  .active{
+header ul>li>a  .active {
 	color: white;
-	font-weight: bold;	
-	
+	font-weight: bold;
 }
 
 /*Cour menu activv */
-
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    color: #E9C254;
-    font-weight:bold;
-    text-decoration: none;
-    background-color: #282828;
-    outline: 0;
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+	{
+	color: #E9C254;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #282828;
+	outline: 0;
 }
 
 /* Couleur hamburger quand responsive */
@@ -69,68 +64,61 @@ header ul>li>a  .active{
 }
 
 header ul {
-	display:flex;
+	display: flex;
 	justify-content: center;
 	margin: 0 auto;
-	width: auto;	
-	}
+	width: auto;
+}
 
 ul #menu-menu-principal {
 	width: 800px;
 	margin-left: 200px;
 	margin-right: auto;
-		
 }
 
 #menu-menu-haut {
+	
 }
 
 header ul>li {
 	width: auto;
 	text-align: center;
-
 }
 
 header .navbar {
 	margin-bottom: 0;
 }
 
-div #bs-example-navbar-collapse-1 {
+div #navbar-menu {
 	margin-top: 2%;
-	margin-bottom: 2%; 
+	margin-bottom: 2%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
 }
 
 .menu-header li a {
-	
 	color: white;
 	transition: all 0.6s ease-in-out 0s;
-	
 }
 
 .menu-header li a:hover {
-
 	color: #E9C254;
 	background: #282828;
 	text-decoration: none;
-	
 }
 
-
 /* Sous partie */
-
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #282828;
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: #282828;
 }
 
 .dropdown-menu {
-	 background-color: #282828;
-	 color:white;
-	 border-radius : 0;
-	 box-shadow:none;
-	 border : #282828;
+	background-color: #282828;
+	color: white;
+	border-radius: 0;
+	box-shadow: none;
+	border: #282828;
 }
 
 /* 
@@ -148,13 +136,8 @@ footer {
 }
 
 /* Couleur menu du footer */
-
-
-
-
 footer ul>li>a {
 	color: white;
-	
 }
 
 footer ul>li {
@@ -164,7 +147,7 @@ footer ul>li {
 /* Couleur des 2 textes du footer */
 footer {
 	color: white;
-	margin-top : 8px;
+	margin-top: 8px;
 }
 
 #footer-huileargan {
@@ -177,3 +160,13 @@ footer {
 	padding-right: 0;
 }
 
+/* Small devices (tablets, 768px and up) 
+Responsive pour les mobiles : */
+@media ( max-width :768px) {
+	div #navbar-menu {
+		width: auto;
+	}
+	header ul {
+		display: block;
+	}
+}
