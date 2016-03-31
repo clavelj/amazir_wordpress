@@ -89,7 +89,7 @@ header .navbar {
 	margin-bottom: 0;
 }
 
-div #navbar-menu {
+#navbar-menu {
 	margin-top: 2%;
 	margin-bottom: 2%;
 	margin-left: auto;
@@ -163,7 +163,7 @@ footer {
 /* Small devices (tablets, 768px and up) 
 Responsive pour les mobiles : */
 @media ( max-width :768px) {
-	div #navbar-menu {
+	#navbar-menu {
 		width: auto;
 	}
 	header ul {

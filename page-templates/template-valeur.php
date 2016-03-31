@@ -9,6 +9,7 @@
         <?php while (have_posts()) : the_post(); ?> 
             <div class="post col-md-8 contenuentreprise">
 		
+		<section>
                <div class="titre">
                     <?php the_title(); ?>
                </div> 
@@ -20,7 +21,9 @@
 					'class' => 'img-responsive' ,
                 	'style'=>'width:100%'
 				) );?>
-                
+				</section>
+				
+                <section>
                 <?php if (get_post_meta( get_the_ID(), '_accueil_titre_titre', true )) :?>
 				<div class="titre"> 
 					<?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?>
@@ -28,6 +31,7 @@
                 <hr class="petitebordure">
                 <?php echo wpautop( get_post_meta( get_the_ID(), '_accueil_titre_text', true )) ?>
                 <?php endif;?>
+           </section>
     	   </div> 
         <?php endwhile; ?> 
         <?php endif; ?> 

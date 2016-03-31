@@ -7,7 +7,7 @@
 <div class="col-md-8">
 	<div class="main page"> <?php if (have_posts()) : ?>
    <?php while (have_posts()) : the_post(); ?> 
-   <div class="post col-md-12 col-sm-12 sectionaccueil">
+   <section class="post col-md-12 col-sm-12 sectionaccueil">
 			<div class="col-md-7 col-sm-7">
 			<div class="titre1"><?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?></div>
 			
@@ -25,7 +25,7 @@
 				) );?>
 			</div>
 
-		</div> 
+		</section> 
 <?php endwhile; ?> 
 <?php endif; ?> 
 </div>
@@ -36,7 +36,7 @@ $recentPosts = new WP_Query ();
 $recentPosts->query ( 'showposts=2' );
 ?>
 <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-	<div class="col-md-12 unarticle">
+	<article class="col-md-12 unarticle">
 
 		
 
@@ -62,7 +62,7 @@ $recentPosts->query ( 'showposts=2' );
     		<?php the_content("<br><br><div class='readmore col-md-8'>Lire la suite</div>" ); ?>
     		<div class="date">Publié le <?php the_date(); ?></div>
 		</div>
-	</div>
+	</article>
 <?php endwhile; ?>
 </div>
 
