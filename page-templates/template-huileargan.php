@@ -5,7 +5,7 @@
     <?php get_header(); ?>
 <div class="main page col-md-12"> 
 	<div class="col-md-2"></div>
-	<div class="col-md-8">
+	<section class="col-md-8">
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?> 
             <div class="post col-md-7" >
@@ -21,7 +21,7 @@
 				) );?>
     	   </div>
         <?php endwhile; ?> 
-        <?php endif; ?> </div>
+        <?php endif; ?> </section>
         
         <div class="col-md-2">
 	<?php if ( is_dynamic_sidebar() ) { ?>

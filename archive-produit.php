@@ -8,9 +8,8 @@
 
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
-
-
-
+	
+		<section>
 		<div class="titre">
 		<?php echo $redux_starter ['text-produit1'];?>
 	</div>
@@ -19,14 +18,15 @@
 <?php echo $redux_starter ['text-produit2'];?>
 </div>
 		<hr>
+		</section>
 	<?php if ( have_posts() ) : ?>
 		<div class="row">
 		<?php while (have_posts()) : the_post(); ?>
-			<div class="col-md-4 col-sm-6 unproduitarchive">
+			<article class="col-md-4 col-sm-6 unproduitarchive">
 			<?php
 			get_template_part ( 'template-parts/argan/content', 'produit' );
 			?>
-			</div>
+			</article>
 		<?php endwhile; ?>
 		</div>
 	<?php else : ?>

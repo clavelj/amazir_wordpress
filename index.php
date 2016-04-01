@@ -13,7 +13,7 @@
 <?php if ( is_category ('bienetre')) { ?>
     <div class="col-md-2">
     </div>
-		<div class="col-md-8">
+		<section class="col-md-8">
 			<div class="titre">
 				<?php  echo $redux_starter ['text-bienetre1'];?>
 			</div>
@@ -21,7 +21,7 @@
 			<div class="description-haut">
 				<?php  echo $redux_starter ['text-bienetre2'];?>
 			</div>
-		</div>
+		</section>
 		<div class="col-md-2">
 		</div>
 <?php } ?>
@@ -32,11 +32,11 @@
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="col-md-12">
 			<div class="col-md-2"></div>
-			<div class="col-md-8 unarticle">
+			<article class="col-md-8 unarticle">
 					<?php
 				get_template_part ( 'template-parts/content', get_post_format () );
 				?>
-				</div>
+				</article>
 			<div class="col-md-2"></div>
 		</div>
 			<?php endwhile; ?>
