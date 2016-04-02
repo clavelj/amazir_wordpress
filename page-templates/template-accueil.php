@@ -31,6 +31,7 @@
 </div>
 
 			<hr>
+
 <?php
 $recentPosts = new WP_Query ();
 $recentPosts->query ( 'showposts=2' );
