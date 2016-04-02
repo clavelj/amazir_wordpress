@@ -127,7 +127,7 @@ function article_metabox() {
 			'id' => $prefix . 'metabox',
 			'title' => __ ( 'Article Informations', 'cmb2' ),
 			'object_types' => array (
-					'post'
+					'bienetre'
 			)
 	) );
 

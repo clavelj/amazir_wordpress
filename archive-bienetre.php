@@ -10,7 +10,21 @@
 	
 	
 	    
-
+<?php if ( is_post_type_archive( 'bienetre' )) { ?>
+    <div class="col-md-2">
+    </div>
+		<section class="col-md-8">
+			<div class="titre">
+				<?php  echo $redux_starter ['text-bienetre1'];?>
+			</div>
+			  <hr class="petitebordure">
+			<div class="description-haut">
+				<?php  echo $redux_starter ['text-bienetre2'];?>
+			</div>
+		</section>
+		<div class="col-md-2">
+		</div>
+<?php } ?>
 
 
 
