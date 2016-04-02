@@ -196,7 +196,7 @@ Responsive pour les mobiles : */
 
 
 
-
+/* 
 
 
 .container-fluid {
@@ -218,9 +218,10 @@ Responsive pour les mobiles : */
 
 #footer {
 
-    /* width: 100%; */
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
 }
+
+*/
