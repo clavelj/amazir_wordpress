@@ -190,12 +190,21 @@ Responsive pour les mobiles : */
 
 
 
+/* Cela permet de mettre le footer en pied de page
 
+.container-fluid{min-height: 100%;     position: relative;}
+footer {position: absolute; bottom: 0;}
+body, html{height:100%;}
 
+@media ( min-width :768px) {
+.toutlecontenu {margin-bottom: 20px;}
+}
 
+@media ( max-width :768px) {
+.toutlecontenu {margin-bottom: 170px;}
 
-
-
+}
+ */
 /* 
 
 
