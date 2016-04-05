@@ -10,7 +10,11 @@
 	
 	
 	    
+<<<<<<< HEAD
 
+=======
+<?php if ( is_post_type_archive( 'bienetre' )) { ?>
+>>>>>>> e6f7b55b58c28e3caef071ceaea216f9a24b7900
     <div class="col-md-2">
     </div>
 		<section class="col-md-8">
@@ -24,6 +28,10 @@
 		</section>
 		<div class="col-md-2">
 		</div>
+<<<<<<< HEAD
+=======
+<?php } ?>
+>>>>>>> e6f7b55b58c28e3caef071ceaea216f9a24b7900
 
 
 

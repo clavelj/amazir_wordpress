@@ -17,13 +17,13 @@
 
  </div>
 		<div class="col-md-3 text-footer">
-	<img class="img-responsive"
+	<img class="img-responsive imgfooter center-block"
 				src="
 			<?php echo get_template_directory_uri(); ?>/images/usda.png"
 				alt="Logo Ecocert" />
 </div>
 		<div class="col-md-3">
-			<img class="img-responsive"
+			<img class="img-responsive imgfooter center-block"
 				src="
 			<?php echo get_template_directory_uri(); ?>/images/ecocert.png"
 				alt="Logo Ecocert" />

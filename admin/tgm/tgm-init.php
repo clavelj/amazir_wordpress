@@ -22,7 +22,12 @@ function redux_musique_register_required_plugins() {
 				'name' 	   => 'Regenerate Thumbnails',
 				'slug' 	   => 'regenerate-thumbnails',
 				'required' => false,
-		),			
+		),
+		array(
+					'name' 	   => 'CMB2 Field Type: Google Maps',
+					'slug' 	   => 'cmb_field_map',
+					'required' => false,
+			),
 		
 			
 	);

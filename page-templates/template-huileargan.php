@@ -8,18 +8,28 @@
 	<section class="col-md-8">
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?> 
-            <div class="post col-md-7" >
+            <div class="post" >
+            
 		  <div class="titre">
                     <?php the_title(); ?>
                 </div> 
                  <hr class="petitebordure">
-                <?php the_content( ); ?>
-    	   </div> 
-    	   <div class="col-md-5" >
+               
+               
+               <div class="col-md-5" style="float:right">
     	   	<?php the_post_thumbnail ( 'full',array (
-					'class' => 'img-responsive imghuileargan' 
+					'class' => 'img-responsive imghuileargan ' ,
+    	   			'style' => 'float:right'
 				) );?>
     	   </div>
+               
+               <div class="texthuileargan">
+                <?php the_content( ); ?></div>
+    	  
+    	  
+    	  
+    	   </div> 
+    	   
         <?php endwhile; ?> 
         <?php endif; ?> </section>
         

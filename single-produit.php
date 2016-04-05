@@ -15,12 +15,8 @@
 		<div class="col-md-8 unproduit">
 		<?php if ( have_posts() ) : ?>
 			<?php while (have_posts()) : the_post(); ?>
-			<div class="col-md-12">
-				<div class="col-md-3 titresingleproduit">
-			
+			<div class="col-md-12 titresingleproduit">
 						<?php the_title( );?> 
-						</div>
-				<div class="col-md-9"></div>
 			</div>
 
 			<div class="col-md-12">
@@ -28,7 +24,7 @@
 				
 				if (has_post_thumbnail ()) { // pour afficher image a la une
 					the_post_thumbnail ( 'thumbnail', array (
-							'class' => 'img-responsive col-md-3' 
+							'class' => 'img-responsive col-md-3 imageproduitinterne' 
 					) );
 				}
 				;

@@ -180,3 +180,59 @@ Responsive pour les mobiles : */
 		display: block;
 	}
 }
+
+
+
+
+
+
+
+.imgfooter {
+	max-height:100px;
+}
+
+
+/* Cela permet de mettre le footer en pied de page
+
+.container-fluid{min-height: 100%;     position: relative;}
+footer {position: absolute; bottom: 0;}
+body, html{height:100%;}
+
+@media ( min-width :768px) {
+.toutlecontenu {margin-bottom: 20px;}
+}
+
+@media ( max-width :768px) {
+.toutlecontenu {margin-bottom: 170px;}
+
+}
+ */
+/* 
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header {
+
+    width: 100%;
+    margin-left: 0;
+}
+
+#footer-accueil{
+	    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#footer {
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+*/

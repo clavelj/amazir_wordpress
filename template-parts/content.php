@@ -16,8 +16,13 @@ if (has_post_thumbnail ()) { // pour afficher image a la une
 }
 ?>
 
-
-<div class="col-md-9">
+	<?php
+	if (has_post_thumbnail ()) {
+		?>
+		<div class="col-md-9 ">
+		<?php } else {?>
+		<div class="col-md-12 "> 
+		<?php } ?>
 
 	<div class="titrearticle">
 		<a href="<?php the_permalink() ?>" rel="bookmark">
