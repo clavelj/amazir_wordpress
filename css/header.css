@@ -187,7 +187,9 @@ Responsive pour les mobiles : */
 
 
 
-
+.imgfooter {
+	max-height:100px;
+}
 
 
 /* Cela permet de mettre le footer en pied de page
