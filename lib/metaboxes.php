@@ -76,7 +76,6 @@ function produit_register_video_metabox() {
 	$cmb_produit->add_field ( array (
 			'name' => 'Text Small',
 			'desc' => 'Petite description du listing produit',
-			'default' => 'Produit de notre boutique',
 			'id' => $prefix . 'text',
 			'type' => 'text_medium' 
 	) );
