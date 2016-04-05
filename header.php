@@ -13,7 +13,7 @@ $layout = $redux_starter ["opt-layout"];
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div  class="<?php echo $layout; ?> ">
+	<div class="<?php echo $layout; ?> ">
 		<header id="header" class="row" >
 			<div id="logo" class="col-md-12">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"

@@ -58,7 +58,7 @@ header ul>li>a  .active {
 	font-weight: bold;
 }
 
-/*Cour menu activv */
+/*Cour menu active */
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
 	{
 	color: #E9C254;
