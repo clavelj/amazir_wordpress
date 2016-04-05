@@ -15,14 +15,13 @@ Text Domain: produit
 	border-radius: 0;
 	background-color: #efefef;
 	padding: 0;
-	width: ;
 }
 
 #content-produit a {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	width: 100%
+	
 }
 
 #content-produit span {
@@ -89,6 +88,7 @@ Text Domain: produit
 	text-transform: uppercase;
 	text-align: justify;
 	z-index: 2;
+	overflow: hidden;
 }
 
 #content-produit span.bg {
@@ -98,6 +98,7 @@ Text Domain: produit
 	width: 100%;
 	background: white;
 	z-index: 1;
+	
 }
 
 #singleproduit iframe {
