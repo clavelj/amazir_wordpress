@@ -1,7 +1,7 @@
 <div id="content-produit" class="thumbnail">
 
 	<a href="<?php the_permalink(); ?>">
-	
+
 	<span class="title"> 
 		<?php the_title( '<h3>', '</h3>' ); ?>
 	</span> 
@@ -13,7 +13,7 @@
 	<span class="more"> 
 		En Savoir +
 	</span>
-	
+
 	<span class="bg">
 	</span>
 			
