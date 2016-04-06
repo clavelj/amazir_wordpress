@@ -22,7 +22,6 @@ html, body {
     height: 80%;
 }
 #main {
-	overflow: auto;
 }
 * {
 	margin: 0;
