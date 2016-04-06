@@ -1,6 +1,6 @@
 <div id="content-produit" class="thumbnail">
 
-	<a href="<?php the_permalink(); ?>">
+	<a href="<?php the_permalink(); ?>" class="center-block">
 
 	<span class="title"> 
 		<?php the_title( '<h3>', '</h3>' ); ?>
