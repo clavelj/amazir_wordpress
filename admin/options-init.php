@@ -170,15 +170,7 @@ Redux::setSection ( $opt_name, array (
 						'desc' => __ ( 'Premier paragraphe du footer', 'starter' ),
 						'default' => 'Orientis vero limes in longum protentus et rectum conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regn.
 LIEN vers articles recents ?' 
-				),
-				array (
-						'id' => 'text-footer2',
-						'type' => 'textarea',
-						'title' => __ ( 'Text Field', 'starter' ),
-						'subtitle' => __ ( 'Texte du footer 2', 'starter' ),
-						'desc' => __ ( 'Deuxieme paragraphe du footer', 'starter' ),
-						'default' => 'Quare talis ed potius supplicio omni vindicanda est, ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit, haud scio an. Ae est, qualis res publica post mortem meam futura, quam qualis hodie sit.' 
-				) 
+				)
 		) 
 ) );
 
