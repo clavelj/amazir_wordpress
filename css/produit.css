@@ -21,7 +21,7 @@ Text Domain: produit
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	
+	width: auto;
 }
 
 #content-produit span {

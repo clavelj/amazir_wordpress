@@ -1,4 +1,7 @@
 <?php global $redux_starter;?>
+</div>
+</div>
+<div class="post col-md-12" id="footer-accueil" style="">
 <footer id="footer" class="row">
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
@@ -31,6 +34,7 @@
 	</div>
 	<div class="col-md-2"></div>
 </footer>
+</div>
 <?php wp_footer(); ?>
 </div>
 <!-- Fin .container -->

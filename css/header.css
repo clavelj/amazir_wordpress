@@ -10,6 +10,20 @@ Version: 1.0
 Tags: 
 Text Domain: header
 */
+
+html, body {
+    height: 100%;
+}
+
+.columns {
+    min-height: 100%;
+}
+.container-fluid {
+    height: 100%;
+}
+#main {
+	overflow: auto;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -143,6 +157,7 @@ footer {
 	font-size: 12px;
 	width: 100%;
 	bottom: 0;
+	position: relative;
 }
 
 /* Couleur menu du footer */

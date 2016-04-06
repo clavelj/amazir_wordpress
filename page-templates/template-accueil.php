@@ -82,5 +82,4 @@ $recentPosts->query ( 'showposts=2' );
 		</div>
 	<?php } ?>
 </div>
-
-<div class="post col-md-12" id="footer-accueil" style=""><?php get_footer(); ?></div>
+<?php get_footer(); ?>
