@@ -19,9 +19,11 @@ html, body {
     min-height: 100%;
 }
 .container-fluid {
-    height: 80%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-#main {
+.col-md-8 {
 }
 * {
 	margin: 0;
@@ -149,6 +151,10 @@ header .navbar {
 FOOTER
 *
 */
+#footer {
+	margin: 0;
+	padding: 0
+}
 footer {
 	background-color: #282828;
 	padding-top: 5px;
@@ -157,8 +163,6 @@ footer {
 	width: 100%;
 	bottom: 0;
 	position: relative;
-	margin-top: 150px;
-	height: 150px;
 }
 
 /* Couleur menu du footer */
@@ -184,6 +188,7 @@ footer {
 
 #footer-accueil {
 	padding-right: 0;
+	padding-left: 0;
 }
 
 /* Small devices (tablets, 768px and up) 
