@@ -10,25 +10,32 @@ Version: 1.0
 Tags: 
 Text Domain: header
 */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: open sans;
+}
+
 
 html, body {
     height: 100%;
 }
 
-.columns {
-    min-height: 100%;
-}
+
 .container-fluid {
-    height: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    height: 100%;
 }
-.col-md-8 {
+
+.columns {
+   min-height: 100%;
 }
-* {
-	margin: 0;
-	padding: 0;
-	font-family: open sans;
+
+
+#main {
+	 overflow:auto;
+    padding-bottom: 150px
 }
 
 .container {
@@ -155,14 +162,14 @@ FOOTER
 	margin: 0;
 	padding: 0
 }
-footer {
+.footercontent {
 	background-color: #282828;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	font-size: 12px;
 	width: 100%;
-	bottom: 0;
 	position: relative;
+    clear:both;
+    margin-top: -150px;
+    height: 150px
 }
 
 /* Couleur menu du footer */
