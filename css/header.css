@@ -20,9 +20,10 @@ html, body {
 }
 .container-fluid {
     height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-#main {
-	overflow: auto;
+.col-md-8 {
 }
 * {
 	margin: 0;
@@ -150,6 +151,10 @@ header .navbar {
 FOOTER
 *
 */
+#footer {
+	margin: 0;
+	padding: 0
+}
 footer {
 	background-color: #282828;
 	padding-top: 5px;
@@ -183,6 +188,7 @@ footer {
 
 #footer-accueil {
 	padding-right: 0;
+	padding-left: 0;
 }
 
 /* Small devices (tablets, 768px and up) 
