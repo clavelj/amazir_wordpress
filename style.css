@@ -133,6 +133,10 @@ body {
 	text-align:center;
 }
 
+
+
+.delay05 {-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+    animation-delay: 0.5s;}
 /* 
 * -----------------------------------------------------------------------------------------------
 SIDEBAR

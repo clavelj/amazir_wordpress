@@ -8,8 +8,9 @@
 			<hr class="petitebordure">
 	</div>
     
-    
+    <?php if ( get_post_meta( get_the_ID(), '_article_image_image', true ) ) : ?>
     <img class="imagesinglearticle" src="<?php echo get_post_meta( get_the_ID(), '_article_image_image', true ) ?>">
+    <?php endif; ?>
     
     
     <?php the_content( ); ?>
