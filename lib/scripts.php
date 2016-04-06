@@ -12,7 +12,7 @@ if (! function_exists ( 'starter_scripts' )) :
 		wp_enqueue_style ( 'starter-style', get_template_directory_uri () . '/css/header.css' );
 		wp_enqueue_style ( 'starter-style-produit', get_template_directory_uri () . '/css/produit.css' );
 		wp_enqueue_style ( 'starter-style-contenu', get_template_directory_uri () . '/style.css' );
-		wp_enqueue_style ( 'options-style', get_template_directory_uri () . '/css/redux_starter.css' );
+		wp_enqueue_style ( 'animation-style', get_template_directory_uri () . '/css/animate.css' );
 	}
 
 
