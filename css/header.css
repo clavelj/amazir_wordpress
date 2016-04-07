@@ -25,7 +25,9 @@ html, body {
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
-    height: 100%;
+    
+        min-height: 100%;
+    position: relative;
 }
 
 .columns {
@@ -34,8 +36,8 @@ html, body {
 
 
 #main {
-	 overflow:auto;
-    padding-bottom: 150px
+overflow:auto;
+    padding-bottom: 120px
 }
 
 .container {
@@ -43,7 +45,7 @@ html, body {
 	margin-right: 0;
 	width: 100%;
 	padding-left: 0;
-	padding-right: 15px;
+	padding-right: 0;
 }
 
 /* 
@@ -165,11 +167,14 @@ FOOTER
 .footercontent {
 	background-color: #282828;
 	font-size: 12px;
-	width: 100%;
-	position: relative;
     clear:both;
-    margin-top: -150px;
-    height: 150px
+    height: 120px;
+    
+    
+        bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 /* Couleur menu du footer */
@@ -184,8 +189,9 @@ footer ul>li {
 /* Couleur des 2 textes du footer */
 footer {
 	color: white;
-	margin-top: 8px;
+	height:inherit;
 }
+footer div {height:inherit}
 
 #footer-huileargan {
 	position: absolute;
