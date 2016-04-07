@@ -218,8 +218,17 @@ Responsive pour les mobiles : */
 	header ul {
 		display: block;
 	}
-}
 
+	/* Footer responsive */
+	#main {
+		padding-bottom: 300px
+	}
+	.footercontent {
+		height: 300px;
+	}
+	.footersmall {
+		height: auto;
+	}
 
 
 

@@ -151,7 +151,7 @@ Redux::setSection ( $opt_name, array (
 										'img' => ReduxFramework::$_url . 'assets/img/3cm.png' 
 								) 
 						),
-						'default' => 'container' 
+						'default' => 'container-fluid' 
 				) 
 		) 
 ) );
@@ -168,8 +168,7 @@ Redux::setSection ( $opt_name, array (
 						'title' => __ ( 'Text Field', 'starter' ),
 						'subtitle' => __ ( 'Texte du footer 1', 'starter' ),
 						'desc' => __ ( 'Premier paragraphe du footer', 'starter' ),
-						'default' => 'Orientis vero limes in longum protentus et rectum conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regn.
-LIEN vers articles recents ?' 
+						'default' => '50 chemin des tournesols <br>38400 seyssinet <br>0474201210' 
 				)
 		) 
 ) );
