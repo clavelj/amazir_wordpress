@@ -20,10 +20,6 @@ body {
 	font-size: 14px;
 }
 
-.main {
-	margin-bottom: 50px;
-}
-
 .titre {
 	margin-top: 23px;
 	padding-bottom: 10px;
@@ -34,8 +30,6 @@ body {
 	text-align: center;
 	color: #E5A265
 }
-
-
 
 .description-haut {
 	text-align: center;
@@ -118,6 +112,10 @@ body {
 	padding-bottom:20px;
 }
 
+.texthuileargan{
+	
+    margin-top: 40px;
+}
 
 .imagesinglearticle {
 	width:100%;
