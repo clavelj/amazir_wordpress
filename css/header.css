@@ -219,10 +219,10 @@ Responsive pour les mobiles : */
 
 	/* Footer responsive */
 	#main {
-		padding-bottom: 280px
+		padding-bottom: 300px
 	}
 	.footercontent {
-		height: 280px;
+		height: 300px;
 	}
 	.footersmall {
 		height: auto;
