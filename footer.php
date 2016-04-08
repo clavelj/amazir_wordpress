@@ -10,23 +10,23 @@
 					wp_nav_menu ( array (
 							'menu' => 'secondary_navigation',
 							'container' => 'div',
-							'container_class' => 'menu-header menu-footer text-left' 
+							'container_class' => 'menu-header menu-footer text-left footerpadding' 
 							
 					) );
 					?>
 					</div>
-		<div class="col-md-3  col-sm-3 text-footer footersmall">
+		<div class="col-md-3  col-sm-3 text-footer footersmall footerpadding">
 <?php echo $redux_starter ['text-footer1'];?>
 
  </div>
 		<div class="col-md-3 col-sm-3 text-footer footersmall">
-	<img class="img-responsive imgfooter center-block"
+	<img class="img-responsive imgfooter center-block footerpaddingimg"
 				src="
 			<?php echo get_template_directory_uri(); ?>/images/usda.png"
 				alt="Logo Ecocert" />
 </div>
 		<div class="col-md-3  col-sm-3 footersmall">
-			<img class="img-responsive imgfooter center-block"
+			<img class="img-responsive imgfooter center-block footerpaddingimg"
 				src="
 			<?php echo get_template_directory_uri(); ?>/images/ecocert.png"
 				alt="Logo Ecocert" />
