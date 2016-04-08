@@ -7,9 +7,9 @@
 function produit_contenance_taxonomy() {
 
 	$labels = array(
-			'name'                       => _x( 'Produit Contenances', 'Taxonomy General Name', 'argan' ),
-			'singular_name'              => _x( 'Produit Contenance', 'Taxonomy Singular Name', 'argan' ),
-			'menu_name'                  => __( 'Produit Contenances', 'argan' ),
+			'name'                       => _x( 'Contenance du produit', 'Taxonomy General Name', 'argan' ),
+			'singular_name'              => _x( 'Contenance du produit', 'Taxonomy Singular Name', 'argan' ),
+			'menu_name'                  => __( 'Contenances du produit', 'argan' ),
 			'all_items'                  => __( 'All Produit Contenances', 'argan' ),
 			'parent_item'                => __( 'Parent Produit Contenances', 'argan' ),
 			'parent_item_colon'          => __( 'Parent Produit Contenances:', 'argan' ),

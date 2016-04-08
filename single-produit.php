@@ -41,7 +41,7 @@
 				?>
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 fullboutonboutique">
 						<?php if ( get_post_meta( get_the_ID(), '_produit_video_url', true ) ) : ?>
 						
 						<a class="boutonboutique"
