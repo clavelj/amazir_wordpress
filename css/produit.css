@@ -154,14 +154,23 @@ Text Domain: produit
 	#content-produit img {
 		width: auto;
 	}
-	.fullboutonboutique {
-		margin-top: 40px;
+	.titresingleproduit{
+		text-align:center;
+	}
+	.imageproduitinterne {
+	margin-right:auto;
+	margin-left:auto;
 	}
 }
 
 @media ( max-width :992px) {
 	#content-produit img {
 		width: 100%;
+	}
+	
+	
+	.fullboutonboutique {
+		margin-top: 40px;
 	}
 }
 
