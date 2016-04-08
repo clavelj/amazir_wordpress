@@ -23,7 +23,7 @@
 				) );?>
     	   </div>
                
-               <div class="texthuileargan  animated fadeInLeft">
+               <div class="texthuileargan  animated fadeInLeft text-justifier">
                 <?php the_content( ); ?></div>
     	  
     	  

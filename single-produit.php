@@ -30,7 +30,7 @@
 				;
 				?>
 				<div class="col-md-9">
-					<div class="col-md-12 contenusingleproduit">
+					<div class="col-md-12 contenusingleproduit text-justifier">
 					<?php
 				the_content ();
 				?>
