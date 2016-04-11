@@ -9,10 +9,10 @@
    <?php while (have_posts()) : the_post(); ?> 
    <section class="post col-md-12 col-sm-12 sectionaccueil">
 			<div class="col-md-7 col-sm-7">
-			<div class="titre1"><?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?></div>
+			<div class="titre1"><h2><?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?></h2></div>
 			
 				<div class="titre2">
-         			<?php the_title(); ?>
+         			<?php the_title( "<h2>", "</h2>"); ?>
      			</div>
 				<div class="description-haut2">
     				<?php the_content( ); ?>

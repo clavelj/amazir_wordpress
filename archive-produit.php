@@ -3,6 +3,9 @@
 
 ?>
 <?php get_header(); ?>
+<title>Nos Produits à base d'huile d'argan</title>
+<meta content="Retrouvez ici la liste de tous nos produits à base d’huile d’argan 100% pure et certifiée Ecocert ainsi que des conseils d’utilisation." name="description" />
+
 <div class="row">
 
 
