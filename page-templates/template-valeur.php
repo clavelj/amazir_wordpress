@@ -20,7 +20,7 @@
                 
                 <?php the_post_thumbnail ( 'full',array (
 					'class' => 'img-responsive' ,
-                	'style'=>'width:100%'
+                	'style'=>'width:100%; margin-top:20px;'
 				) );?>
 				</section>
 				
