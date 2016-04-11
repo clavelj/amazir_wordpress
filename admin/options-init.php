@@ -132,7 +132,7 @@ Redux::setHelpSidebar ( $opt_name, $content );
  * ---> START SECTIONS
  *
  */
-/*Redux::setSection ( $opt_name, array (
+Redux::setSection ( $opt_name, array (
 		'title' => __ ( 'General', 'starter' ),
 		'id' => 'general',
 		'icon' => 'el el-adjust-alt',
@@ -155,7 +155,7 @@ Redux::setHelpSidebar ( $opt_name, $content );
 				) 
 		) 
 ) );
- */
+
 Redux::setSection ( $opt_name, array (
 		'title' => __ ( 'Texte footer', 'starter' ),
 		'desc' => __ ( 'For full documentation on this field, visit: ', 'starter' ),
