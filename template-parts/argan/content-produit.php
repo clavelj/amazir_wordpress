@@ -18,7 +18,7 @@
 	</span>
 			
 	<?php if(has_post_thumbnail($post->ID)) : ?>
-		<?php the_post_thumbnail('cover', array (
+		<?php the_post_thumbnail('medium', array (
 					'class' => 'col-xs-6 col-sm-6 center-block' )); ?>
 	<?php else:?>
 		<?php echo '<img src="' . get_template_directory_uri (). '/images/photo_no_available.png" />'; ?>
