@@ -23,7 +23,7 @@
 						<?php
 				
 				if (has_post_thumbnail ()) { // pour afficher image a la une
-					the_post_thumbnail ( 'thumbnail', array (
+					the_post_thumbnail ( 'small', array (
 							'class' => 'img-responsive col-md-3 imageproduitinterne' 
 					) );
 				}
@@ -80,9 +80,7 @@
 	</div>
 
 
-	<div class="col-md-3">
-
-	</div>
+	<div class="col-md-3"></div>
 </div>
 <?php get_footer();?>
 

@@ -104,9 +104,9 @@ header ul {
 	margin: 0 auto;
 	width: auto;
 	display: -webkit-flex; /* Safari */
-    -webkit-justify-content: space-around; /* Safari 6.1+ */
-    display: flex;
-    justify-content: space-around;
+	-webkit-justify-content: space-around; /* Safari 6.1+ */
+	display: flex;
+	justify-content: space-around;
 }
 
 ul #menu-menu-principal {

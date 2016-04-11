@@ -4,7 +4,7 @@ Theme URI:
 License: 
 License URI: 
 Description: Theme de l'entreprise Amazir.
-Author: Réalisé par Jeanne Clavel, Younes Manjal, Valentin Savoy, Alyssia Tanrattana et Remi Jaillard
+Author: Rï¿½alisï¿½ par Jeanne Clavel, Younes Manjal, Valentin Savoy, Alyssia Tanrattana et Remi Jaillard
 Author URI: 
 Version: 1.0
 Tags: 
@@ -20,10 +20,10 @@ body {
 	font-size: 14px;
 }
 
-
 .text-justifier {
-	text-align:justify;
+	text-align: justify;
 }
+
 .titre {
 	margin-top: 23px;
 	padding-bottom: 10px;
@@ -41,6 +41,10 @@ body {
 
 .unarticle {
 	margin-bottom: 30px;
+}
+
+.unarticle a {
+	text-decoration: none;
 }
 
 .titrearticle {
@@ -112,43 +116,43 @@ body {
 
 .imghuileargan {
 	padding-top: 40px;
-	padding-left:20px;
-	padding-bottom:20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
-.texthuileargan{
-	
-    margin-top: 40px;
+.texthuileargan {
+	margin-top: 40px;
 }
 
 .imagesinglearticle {
-	width:100%;
-	margin-bottom:20px;
+	width: 100%;
+	margin-bottom: 20px;
 }
+
 .articlesingleentier {
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
+
 .titre4 {
-	margin-top:30px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 21px;
 	text-transform: uppercase;
-	font-family: open sans ;
-	font-weight:bold;
-	color:#E5A265;
-	text-align:center;
+	font-family: open sans;
+	font-weight: bold;
+	color: #E5A265;
+	text-align: center;
 }
 
-
-
-.delay05 {-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
-    animation-delay: 0.5s;}
+.delay05 {
+	-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+	animation-delay: 0.5s;
+}
 /* 
 * -----------------------------------------------------------------------------------------------
 SIDEBAR
 * -----------------------------------------------------------------------------------------------
 */
-
 .titresidebar, .sidebarcomplet label {
 	font-family: open sans;
 	font-size: 23px;
@@ -174,7 +178,6 @@ SIDEBAR
 .sidebarcomplet li {
 	list-style-type: none;
 }
-
 
 /* 
 * -----------------------------------------------------------------------------------------------
@@ -207,6 +210,7 @@ PAGE CONTACT
 	width: 100%;
 	background-color: #EFEFEF;
 	color: #282828;
+	border: solid 1px #999999;
 }
 
 .textareacontact {
@@ -218,6 +222,15 @@ PAGE CONTACT
 	background-color: #EFEFEF;
 	color: #282828;
 }
+
+#breadcrumbs {
+	margin-top:15px;margin-bottom:0;padding-bottom:0;
+}
+
+#breadcrumbs a {
+	color:#E5A265;
+} 
+#breadcrumbs a:hover {text-decoration:none; }
 
 /* Small devices (tablets, 768px and up) 
 Responsive pour les mobiles : */
@@ -233,5 +246,4 @@ Responsive pour les mobiles : */
 	.titrearticle {
 		margin-bottom: 0px;
 	}
-	
 }
