@@ -16,14 +16,14 @@
                  <hr class="petitebordure">
                
                
-               <div class="col-md-5" style="float:right">
+               <div class="col-md-5 animated fadeInRight" style="float:right">
     	   	<?php the_post_thumbnail ( 'full',array (
 					'class' => 'img-responsive imghuileargan ' ,
     	   			'style' => 'float:right'
 				) );?>
     	   </div>
                
-               <div class="texthuileargan">
+               <div class="texthuileargan  animated fadeInLeft text-justifier">
                 <?php the_content( ); ?></div>
     	  
     	  

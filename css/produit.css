@@ -21,7 +21,6 @@ Text Domain: produit
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	
 }
 
 #content-produit span {
@@ -43,14 +42,7 @@ Text Domain: produit
 	}
 }
 
-@media ( max-width :1200px) {
-	#content-produit img {
-		width: auto;
-	}
-}
 /*fin compatibilité firefox */
-
-
 #content-produit span.title {
 	color: Black;
 	font-weight: bold;
@@ -98,7 +90,6 @@ Text Domain: produit
 	width: 100%;
 	background: white;
 	z-index: 1;
-	
 }
 
 #singleproduit iframe {
@@ -151,9 +142,9 @@ Text Domain: produit
 }
 
 .imageproduitinterne {
-background-color: #efefef;
-padding-left: 0;
-padding-right: 0;
+	background-color: #efefef;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 @media ( max-width :768px) {
@@ -162,5 +153,34 @@ padding-right: 0;
 	}
 	#content-produit img {
 		width: auto;
+	}
+	.titresingleproduit{
+		text-align:center;
+	}
+	.imageproduitinterne {
+	margin-right:auto;
+	margin-left:auto;
+	}
+}
+
+@media ( max-width :992px) {
+	#content-produit img {
+		width: 100%;
+	}
+	
+	
+	.fullboutonboutique {
+		margin-top: 40px;
+	}
+}
+
+@media ( min-width :992px) {
+	#content-produit {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 260px;
+	}
+	#content-produit img {
+		width: 100%;
 	}
 }

@@ -1,13 +1,13 @@
 /*
 Theme Name: Header Style
-Theme URI: 
-License: 
-License URI: 
+Theme URI:
+License:
+License URI:
 Description: Header Style.
-Author: 
-Author URI: 
+Author:
+Author URI:
 Version: 1.0
-Tags: 
+Tags:
 Text Domain: header
 */
 * {
@@ -16,15 +16,40 @@ Text Domain: header
 	font-family: open sans;
 }
 
+html, body {
+	height: 100%;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	min-height: 100%;
+	position: relative;
+}
+
+.columns {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 120px
+}
+
 .container {
 	margin-left: 0;
 	margin-right: 0;
 	width: 100%;
 	padding-left: 0;
-	padding-right: 15px;
+	padding-right: 0;
 }
 
-/* 
+/*
 *
 HEADER
 *
@@ -44,13 +69,13 @@ header ul>li>a {
 }
 
 /*Cour menu active*/
-
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    color: #E9C254;
-    font-weight:bold;
-    text-decoration: none;
-    background-color: #282828;
-    outline: 0;
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+	{
+	color: #E9C254;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #282828;
+	outline: 0;
 }
 
 header ul>li>a  .active {
@@ -131,18 +156,25 @@ header .navbar {
 	border: #282828;
 }
 
-/* 
+/*
 *
 FOOTER
 *
 */
-footer {
+#footer {
+	margin: 0;
+	padding: 0
+}
+
+.footercontent {
 	background-color: #282828;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	font-size: 12px;
-	width: 100%;
+	clear: both;
+	height: 120px;
 	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
 }
 
 /* Couleur menu du footer */
@@ -157,7 +189,11 @@ footer ul>li {
 /* Couleur des 2 textes du footer */
 footer {
 	color: white;
-	margin-top: 8px;
+	height: inherit;
+}
+
+footer div {
+	height: inherit
 }
 
 #footer-huileargan {
@@ -168,9 +204,10 @@ footer {
 
 #footer-accueil {
 	padding-right: 0;
+	padding-left: 0;
 }
 
-/* Small devices (tablets, 768px and up) 
+/* Small devices (tablets, 768px and up)
 Responsive pour les mobiles : */
 @media ( max-width :768px) {
 	#navbar-menu {
@@ -179,60 +216,38 @@ Responsive pour les mobiles : */
 	header ul {
 		display: block;
 	}
+
+	/* Footer responsive */
+	#main {
+		padding-bottom: 345px
+	}
+	.footercontent {
+		height: 345px;
+	}
+	.footersmall {
+		height: auto;
+		text-align: center
+	}
+	#menu-menu-du-bas {
+		text-align: center
+	}
+	.footerpaddingimg {
+		padding-top: 20px;
+	}
+	.footerpadding {
+		padding-top: 10px;
+	}
 }
-
-
-
-
-
-
 
 .imgfooter {
-	max-height:100px;
+	max-height: 100px;
 }
-
-
-/* Cela permet de mettre le footer en pied de page
-
-.container-fluid{min-height: 100%;     position: relative;}
-footer {position: absolute; bottom: 0;}
-body, html{height:100%;}
 
 @media ( min-width :768px) {
-.toutlecontenu {margin-bottom: 20px;}
+	.footerpadding {
+		padding-top: 10px;
+	}
+	.footerpaddingimg {
+		padding-top: 10px;
+	}
 }
-
-@media ( max-width :768px) {
-.toutlecontenu {margin-bottom: 170px;}
-
-}
- */
-/* 
-
-
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#header {
-
-    width: 100%;
-    margin-left: 0;
-}
-
-#footer-accueil{
-	    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#footer {
-
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-*/

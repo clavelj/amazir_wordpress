@@ -37,7 +37,7 @@ $recentPosts = new WP_Query ();
 $recentPosts->query ( 'showposts=2' );
 ?>
 <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-	<article class="col-md-12 unarticle">
+	<article class="col-md-12 unarticle animated fadeIn delay05">
 
 		
 
@@ -82,5 +82,4 @@ $recentPosts->query ( 'showposts=2' );
 		</div>
 	<?php } ?>
 </div>
-
-<div class="post col-md-12" id="footer-accueil" style=""><?php get_footer(); ?></div>
+<?php get_footer(); ?>

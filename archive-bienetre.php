@@ -25,8 +25,9 @@
 		</section>
 		<div class="col-md-2">
 		</div>
-<?php } ?>
 
+
+<?php } ?>
 
 
 		<?php if ( have_posts() ) : ?>

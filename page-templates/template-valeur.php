@@ -14,7 +14,8 @@
                     <?php the_title(); ?>
                </div> 
                <hr class="petitebordure">
-                <?php the_content( ); ?>
+               <div class="animated fadeIn text-justifier">
+                <?php the_content( ); ?></div>
                 
                 
                 <?php the_post_thumbnail ( 'full',array (
@@ -23,13 +24,13 @@
 				) );?>
 				</section>
 				
-                <section>
+                <section  class="animated fadeIn delay05" > 
                 <?php if (get_post_meta( get_the_ID(), '_accueil_titre_titre', true )) :?>
 				<div class="titre"> 
 					<?php echo get_post_meta( get_the_ID(), '_accueil_titre_titre', true ) ?>
                 </div>
                 <hr class="petitebordure">
-                <?php echo wpautop( get_post_meta( get_the_ID(), '_accueil_titre_text', true )) ?>
+               <div class="text-justifier" <?php echo wpautop( get_post_meta( get_the_ID(), '_accueil_titre_text', true )) ?></div>
                 <?php endif;?>
            </section>
     	   </div> 
@@ -53,14 +54,7 @@
     
     
     
-    
-    
-    
-    <?php /* if ( is_page ('valeurs')) { 
- echo "page valeur"; }
- if ( is_page('notre-entreprise')) {  
-	echo "notre entrepirrrrrrese "; } */ ?>
-    
+  
     
 <div id="footer-accueil" class="col-md-12">
             <?php get_footer(); ?>
